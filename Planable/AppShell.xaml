@@ -4,12 +4,21 @@
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:Planable"
-    Shell.FlyoutBehavior="Disabled"
-    Title="Planable">
+    Shell.FlyoutBehavior="Flyout"
+    Title="Planable"
+    NavBarIsVisible="false">
 
     <ShellContent
         Title="Home"
         ContentTemplate="{DataTemplate local:MainPage}"
         Route="MainPage" />
+    <ShellContent
+        Title="How to budget"
+        ContentTemplate="{DataTemplate local:PageBudget}"
+        Route="PageBudget"/>
+    <ShellContent
+    Title="About us"
+    ContentTemplate="{DataTemplate local:AboutUs}"
+    Route="AboutUs"/>
 
 </Shell>

@@ -5,6 +5,8 @@
         public AppShell()
         {
             InitializeComponent();
+            Routing.RegisterRoute(nameof(PageBudget), typeof(ContentPage));
+            Routing.RegisterRoute(nameof(AboutUs), typeof(ContentPage));
         }
     }
 }

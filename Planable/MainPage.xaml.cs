@@ -1,24 +1,31 @@
-﻿namespace Planable
+﻿
+
+namespace Planable
 {
     public partial class MainPage : ContentPage
     {
-        int count = 0;
 
         public MainPage()
         {
             InitializeComponent();
         }
 
-        private void OnCounterClicked(object sender, EventArgs e)
+       private async void main_Button(object sender, EventArgs e)
         {
-            count++;
+            await Shell.Current.GoToAsync("PageBudget");
+        }
+        private async void button2(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new PageBudget());
 
-            if (count == 1)
-                CounterBtn.Text = $"Clicked {count} time";
-            else
-                CounterBtn.Text = $"Clicked {count} times";
-
-            SemanticScreenReader.Announce(CounterBtn.Text);
+        }
+        private async void button3(object sender, EventArgs e)
+        {
+            await Shell.Current.GoToAsync("PageBudget");
+        }
+        private async void button4(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new AboutUs());
         }
     }
 
