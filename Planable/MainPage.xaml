@@ -36,8 +36,14 @@
             <ImageButton Source="contact.png"
                          Clicked="button4"
                          Grid.Row="2"
+                         Grid.Column="2"
+                         Scale="0.50"
+                         CornerRadius="20"/>
+            <ImageButton Source="mY.png"
+                         Clicked="button5"
+                         Grid.Row="2"
                          Grid.Column="3"
-                         Scale="0.36"
+                         Scale="0.5"
                          CornerRadius="20"/>
 
         </Grid>

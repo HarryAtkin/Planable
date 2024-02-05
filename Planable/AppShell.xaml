@@ -6,7 +6,7 @@
     xmlns:local="clr-namespace:Planable"
     Shell.FlyoutBehavior="Flyout"
     Title="Planable"
-    NavBarIsVisible="false">
+    NavBarIsVisible="True">
 
     <ShellContent
         Title="Home"
@@ -17,8 +17,17 @@
         ContentTemplate="{DataTemplate local:PageBudget}"
         Route="PageBudget"/>
     <ShellContent
-    Title="About us"
-    ContentTemplate="{DataTemplate local:AboutUs}"
-    Route="AboutUs"/>
+        Title="Finance Calculator"
+        ContentTemplate="{DataTemplate local:FinanceCalculator}"
+        Route="FinanceCalculator"/>
+    <ShellContent
+        Title="About us"
+        ContentTemplate="{DataTemplate local:AboutUs}"
+        Route="AboutUs"/>
+    <ShellContent
+        Title="Your finance"
+        ContentTemplate="{DataTemplate local:MyFinancePage}"
+        Route="MyFinancePage"/>
 
+    
 </Shell>

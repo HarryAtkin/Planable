@@ -67,6 +67,12 @@
 	  <MauiXaml Update="AboutUs.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="FinanceCalculator.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="MyFinancePage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="PageBudget.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>

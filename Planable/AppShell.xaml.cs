@@ -7,6 +7,9 @@
             InitializeComponent();
             Routing.RegisterRoute(nameof(PageBudget), typeof(ContentPage));
             Routing.RegisterRoute(nameof(AboutUs), typeof(ContentPage));
+            Routing.RegisterRoute(nameof(FinanceCalculator), typeof(ContentPage));
+            Routing.RegisterRoute(nameof(MyFinancePage), typeof(ContentPage));
+            
         }
     }
 }
