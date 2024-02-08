@@ -4,10 +4,11 @@
              x:Class="Planable.MainPage">
 
     <ScrollView>
+        
         <Grid ColumnDefinitions="50,50,50,50,50"
           RowDefinitions="100,100,100,100, 100, 100"
           ColumnSpacing="0"
-          RowSpacing="20">
+          RowSpacing="15">
             <Image Source="logo_proj1.png"
                    Grid.ColumnSpan="3"
                    Grid.Column="2"
@@ -29,9 +30,12 @@
                          Grid.ColumnSpan ="2"
                          Scale="1.25"
                          CornerRadius="40"/>
+            
             <Label Text="How To budget"
                    Grid.Row="4"
-                   Grid.Column="1"/>
+                   Grid.Column="1"
+                   Grid.ColumnSpan ="2"/>
+            
             <ImageButton Source="calculator.jpg"
                          Clicked="button3"
                          Grid.Row="3"
@@ -39,9 +43,12 @@
                          Grid.ColumnSpan ="2"
                          Scale="2"
                          CornerRadius="20"/>
+            
             <Label Text="Finance Calculator"
                    Grid.Row="4"
-                   Grid.Column="4"/>
+                   Grid.Column="4"
+                   Grid.ColumnSpan ="3"/>
+            
             <ImageButton Source="contact.png"
                          Clicked="button4"
                          Grid.Row="5"
@@ -49,9 +56,12 @@
                          Grid.ColumnSpan ="2"
                          Scale="1.71"
                          CornerRadius="20"/>
+            
             <Label Text="About us"
                    Grid.Row="6"
-                   Grid.Column="1"/>
+                   Grid.Column="1"
+                   Grid.ColumnSpan ="2"/>
+            
             <ImageButton Source="mY.png"
                          Clicked="button5"
                          Grid.Row="5"
@@ -59,9 +69,11 @@
                          Grid.ColumnSpan ="2"
                          Scale="1"
                          CornerRadius="20"/>
+            
             <Label Text="My account"
                    Grid.Row="6"
-                   Grid.Column="4"/>
+                   Grid.Column="4"
+                   Grid.ColumnSpan ="3"/>
 
         </Grid>
     </ScrollView>

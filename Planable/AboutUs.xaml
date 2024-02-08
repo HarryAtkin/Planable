@@ -3,22 +3,59 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Planable.AboutUs"
              Title="AboutUs">
-    <ScrollView>
-        <Grid ColumnDefinitions="*,*,*,*"
-      RowDefinitions="*,*,*,*"
-      ColumnSpacing="1"
-      RowSpacing="0">
 
-            <Label Text="About Us" 
-                   Grid.Row="0" 
-                   Grid.Column="0" 
-                   Grid.ColumnSpan="4" 
-                   HorizontalOptions="Center" 
-                   VerticalOptions="Center" 
-                   FontSize="Large" 
-                   FontAttributes="Bold" />
+
+        <Grid ColumnDefinitions="50,200,50"
+          RowDefinitions="100,50,300,50,1500"
+          ColumnSpacing="0"
+          RowSpacing="1"
+              Padding="7">
+            <Image Source="logo_proj1.png"
+                   Grid.ColumnSpan="0"
+                   Grid.Column="1"
+                   Grid.Row="0"
+                   Scale="1.5"
+                   HorizontalOptions="Center"/>
+
+
+             <Label Text="About Us" 
+                    Grid.Row="1" 
+                    Grid.Column="0" 
+                    Grid.ColumnSpan="4" 
+                    FontSize="Large" 
+                    FontAttributes="Bold" />
+             <Label Text="We are a group of 1st year computer science students who have decided to create a student budgeting application as part of our project. This application will help student manage their finances better by allowing them to calculate their budget as well as giving them information on how to budget." 
+                    Grid.Row="2" 
+                    Grid.Column="1" 
+                    Grid.ColumnSpan="3" 
+                    FontSize="Medium"/>
+            
+             <Label Text="Contact Us" 
+                    Grid.Row="3" 
+                    Grid.Column="0" 
+                    Grid.ColumnSpan="4" 
+                    FontSize="Large" 
+                    FontAttributes="Bold" />
+             <Label Text="For any enquires
+                    Email us at:
+                    randomemail@email.com
+                    
+                    OR
+                                
+                    Give us a call at:
+                    01234567890" 
+                    Grid.Row="4" 
+                    Grid.Column="1" 
+                    Grid.ColumnSpan="4" 
+                    FontSize="Medium"/>
 
 
         </Grid>
-    </ScrollView>
+
+
 </ContentPage>
+
+
+
+
+    
