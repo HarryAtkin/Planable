@@ -4,47 +4,64 @@
              x:Class="Planable.MainPage">
 
     <ScrollView>
-        <Grid ColumnDefinitions="*,*,*,*"
-          RowDefinitions="*,*,735*,*"
-          ColumnSpacing="1"
-          RowSpacing="0">
+        <Grid ColumnDefinitions="50,50,50,50,50"
+          RowDefinitions="100,100,100,100, 100, 100"
+          ColumnSpacing="0"
+          RowSpacing="20">
             <Image Source="logo_proj1.png"
-                   Grid.ColumnSpan="2"
-                   Grid.Column="1"
+                   Grid.ColumnSpan="3"
+                   Grid.Column="2"
                    Grid.Row="0"
-                   Scale="0.4"
+                   Scale="2.2"
                    />
             <ImageButton Source="oastler.png"
                          Clicked="main_Button"
                          Grid.Row="1"
-                         Grid.Column="1"
-                         Grid.ColumnSpan="2"
-                         Scale="0.8"
+                         Grid.Column="2"
+                         Grid.ColumnSpan="3"
+                         Scale="2"
                          CornerRadius="20"/>
+            
             <ImageButton Source="savings.png"
                          Clicked="button2"
-                         Grid.Row="2"
-                         Grid.Column="0"
-                         Scale="0.5"
+                         Grid.Row="3"
+                         Grid.Column="1"
+                         Grid.ColumnSpan ="2"
+                         Scale="1.25"
                          CornerRadius="40"/>
+            <Label Text="How To budget"
+                   Grid.Row="4"
+                   Grid.Column="1"/>
             <ImageButton Source="calculator.jpg"
                          Clicked="button3"
-                         Grid.Row="2"
-                         Grid.Column="1"
-                         Scale="0.36"
+                         Grid.Row="3"
+                         Grid.Column="4"
+                         Grid.ColumnSpan ="2"
+                         Scale="2"
                          CornerRadius="20"/>
+            <Label Text="Finance Calculator"
+                   Grid.Row="4"
+                   Grid.Column="4"/>
             <ImageButton Source="contact.png"
                          Clicked="button4"
-                         Grid.Row="2"
-                         Grid.Column="2"
-                         Scale="0.50"
+                         Grid.Row="5"
+                         Grid.Column="1"
+                         Grid.ColumnSpan ="2"
+                         Scale="1.71"
                          CornerRadius="20"/>
+            <Label Text="About us"
+                   Grid.Row="6"
+                   Grid.Column="1"/>
             <ImageButton Source="mY.png"
                          Clicked="button5"
-                         Grid.Row="2"
-                         Grid.Column="3"
-                         Scale="0.5"
+                         Grid.Row="5"
+                         Grid.Column="4"
+                         Grid.ColumnSpan ="2"
+                         Scale="1"
                          CornerRadius="20"/>
+            <Label Text="My account"
+                   Grid.Row="6"
+                   Grid.Column="4"/>
 
         </Grid>
     </ScrollView>

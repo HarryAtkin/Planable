@@ -6,7 +6,7 @@
     xmlns:local="clr-namespace:Planable"
     Shell.FlyoutBehavior="Flyout"
     Title="Planable"
-    NavBarIsVisible="True">
+    NavBarIsVisible="False">
 
     <ShellContent
         Title="Home"
