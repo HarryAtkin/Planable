@@ -4,9 +4,11 @@
              x:Class="Planable.AboutUs"
              Title="AboutUs">
 
+    <ScrollView>
 
-        <Grid ColumnDefinitions="50,200,50"
-          RowDefinitions="100,50,300,50,1500"
+
+    <Grid ColumnDefinitions="50,200,50"
+          RowDefinitions="100,50,300,50,150"
           ColumnSpacing="0"
           RowSpacing="1"
               Padding="7">
@@ -51,6 +53,7 @@
 
 
         </Grid>
+    </ScrollView>
 
 
 </ContentPage>
