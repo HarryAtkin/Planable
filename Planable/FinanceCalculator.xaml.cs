@@ -6,4 +6,9 @@ public partial class FinanceCalculator : ContentPage
 	{
 		InitializeComponent();
 	}
+
+    private void Calculate_Button_Clicked(object sender, EventArgs e)
+    {
+
+    }
 }

@@ -4,13 +4,21 @@
              x:Class="Planable.FinanceCalculator"
              Title="FinanceCalculator">
     <ScrollView>
-    <Grid ColumnDefinitions="*,*,*,*"
-      RowDefinitions="*,*,*,*"
-      ColumnSpacing="1"
-      RowSpacing="0">
+        <Grid ColumnDefinitions="150,50,50,50,50"
+  RowDefinitions="100,100,100,50, 50,100, 50, 50,100, 50, 50, 50, 50"
+  ColumnSpacing="0"
+  RowSpacing="5">
 
-        <Label Text="Finance Calculator" 
-                   Grid.Row="0" 
+        
+
+            <Image Source="logo_proj1.png"
+                   Grid.ColumnSpan="2"
+                   Grid.Column="1"
+                   Grid.Row="0"
+                   Scale="2"/>
+
+            <Label Text="Finance Calculator" 
+                   Grid.Row="1" 
                    Grid.Column="0" 
                    Grid.ColumnSpan="4" 
                    HorizontalOptions="Center" 
@@ -19,6 +27,116 @@
                    FontAttributes="Bold" />
 
 
-    </Grid>
+            <Label Text="Budget Calculator"
+                   Grid.Row="2"
+                   Grid.Column="0"
+                   Grid.ColumnSpan="2"
+                   FontSize="Medium"/>
+
+            <Label Text="Maintenance loan"
+                   Grid.Row="3"
+                   Grid.Column="0"/>
+
+            <Entry Placeholder="Enter amount"
+                   Grid.Row="3"
+                   Grid.Column="1"
+                   Grid.ColumnSpan="3"
+                   x:Name="maintenanceLoan"
+                   Keyboard="Numeric"/>
+            <Label Text="Other Funding"
+                   Grid.Row="4"
+                   Grid.Column="0"/>
+
+            <Entry Placeholder="Enter amount"
+                   Grid.Row="4"
+                   Grid.Column="1"
+                   Grid.ColumnSpan="3"
+                   x:Name="otherFunding"
+                   Keyboard="Numeric"/>
+
+
+            <Label Text="Monthly Income"
+                   Grid.Row="5"
+                   Grid.Column="0"
+                   Grid.ColumnSpan="2"
+                   FontSize="Medium"/>
+
+            <Label Text="From Job"
+                   Grid.Row="6"
+                   Grid.Column="0"/>
+
+            <Entry Placeholder="Enter amount"
+                   Grid.Row="6"
+                   Grid.Column="1"
+                   Grid.ColumnSpan="3"
+                   x:Name="fromJob"
+                   Keyboard="Numeric"/>
+
+            <Label Text="Other Income"
+                   Grid.Row="7"
+                   Grid.Column="0"/>
+
+            <Entry Placeholder="Enter amount"
+                   Grid.Row="7"
+                   Grid.Column="1"
+                   Grid.ColumnSpan="3"
+                   x:Name="otherIncome"
+                   Keyboard="Numeric"/>
+
+
+            <Label Text="Monthly Expenses"
+                   Grid.Row="8"
+                   Grid.Column="0"
+                   Grid.ColumnSpan="2"
+                   FontSize="Medium"/>
+
+            <Label Text="Rent (including bills)"
+                   Grid.Row="9"
+                   Grid.Column="0"/>
+
+            <Entry Placeholder="Enter amount"
+                   Grid.Row="9"
+                   Grid.Column="1"
+                   Grid.ColumnSpan="3"
+                   x:Name="rent"
+                   Keyboard="Numeric"/>
+
+            <Label Text="Food"
+                   Grid.Row="10"
+                   Grid.Column="0"/>
+
+            <Entry Placeholder="Enter amount"
+                   Grid.Row="10"
+                   Grid.Column="1"
+                   Grid.ColumnSpan="3"
+                   x:Name="food"
+                   Keyboard="Numeric"/>
+
+            <Label Text="Food"
+                   Grid.Row="11"
+                   Grid.Column="0"/>
+
+            <Entry Placeholder="Other Expenses"
+                   Grid.Row="11"
+                   Grid.Column="1"
+                   Grid.ColumnSpan="3"
+                   x:Name="otherExpenses"
+                   Keyboard="Numeric"/>
+
+            <Button Text="Calculate"
+                    FontSize="Large"
+                    FontAttributes="Bold"
+                    Grid.Row="12"
+                    Grid.Column="1"
+                    Grid.ColumnSpan="3"
+                    BackgroundColor="Green"
+                    Clicked="Calculate_Button_Clicked"/>
+
+
+
+
+        </Grid>
+
     </ScrollView>
+
 </ContentPage>
