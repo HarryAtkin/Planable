@@ -41,7 +41,7 @@ public partial class LoginPage : ContentPage
                     await DisplayAlert("Success", "You have successfully logged in", "OK");
                     
 					Logged_in log = new Logged_in();
-					log.logged_in(true);
+					log.logged_in(true, Username_Entry.Text, Password_Entry.Text);
 
 					break;
                 }

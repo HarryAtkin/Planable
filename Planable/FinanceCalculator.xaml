@@ -5,7 +5,7 @@
              Title="FinanceCalculator">
     <ScrollView>
         <Grid ColumnDefinitions="150,50,50,50,50"
-  RowDefinitions="100,100,100,50, 50,100, 50, 50,100, 50, 50, 50, 50"
+  RowDefinitions="100,100,100,50, 50,100, 50, 50,100, 50, 50, 50, 50, 50, 50, 50"
   ColumnSpacing="0"
   RowSpacing="5">
 
@@ -35,25 +35,29 @@
 
             <Label Text="Maintenance loan"
                    Grid.Row="3"
-                   Grid.Column="0"/>
+                   Grid.Column="0"
+                   x:Name ="maintenance_Loan"/>
 
             <Entry Placeholder="Enter amount"
                    Grid.Row="3"
                    Grid.Column="1"
                    Grid.ColumnSpan="3"
                    x:Name="maintenanceLoan"
-                   Keyboard="Numeric"/>
+                   Keyboard="Numeric"
+                   Text="0"/>
+            
             <Label Text="Other Funding"
                    Grid.Row="4"
-                   Grid.Column="0"/>
+                   Grid.Column="0"
+                   x:Name="other_Funding"/>
 
             <Entry Placeholder="Enter amount"
                    Grid.Row="4"
                    Grid.Column="1"
                    Grid.ColumnSpan="3"
                    x:Name="otherFunding"
-                   Keyboard="Numeric"/>
-
+                   Keyboard="Numeric"
+                   Text="0"/>
 
             <Label Text="Monthly Income"
                    Grid.Row="5"
@@ -63,26 +67,29 @@
 
             <Label Text="From Job"
                    Grid.Row="6"
-                   Grid.Column="0"/>
+                   Grid.Column="0"
+                   x:Name="from_Job"/>
 
             <Entry Placeholder="Enter amount"
                    Grid.Row="6"
                    Grid.Column="1"
                    Grid.ColumnSpan="3"
                    x:Name="fromJob"
-                   Keyboard="Numeric"/>
+                   Keyboard="Numeric"
+                   Text="0"/>
 
             <Label Text="Other Income"
                    Grid.Row="7"
-                   Grid.Column="0"/>
+                   Grid.Column="0"
+                   x:Name="other_Income"/>
 
             <Entry Placeholder="Enter amount"
                    Grid.Row="7"
                    Grid.Column="1"
                    Grid.ColumnSpan="3"
                    x:Name="otherIncome"
-                   Keyboard="Numeric"/>
-
+                   Keyboard="Numeric"
+                   Text="0"/>
 
             <Label Text="Monthly Expenses"
                    Grid.Row="8"
@@ -92,36 +99,42 @@
 
             <Label Text="Rent (including bills)"
                    Grid.Row="9"
-                   Grid.Column="0"/>
+                   Grid.Column="0"
+                   x:Name="Rent"/>
 
             <Entry Placeholder="Enter amount"
                    Grid.Row="9"
                    Grid.Column="1"
                    Grid.ColumnSpan="3"
                    x:Name="rent"
-                   Keyboard="Numeric"/>
+                   Keyboard="Numeric"
+                   Text="0"/>
 
             <Label Text="Food"
                    Grid.Row="10"
-                   Grid.Column="0"/>
+                   Grid.Column="0"
+                   x:Name="Food"/>
 
             <Entry Placeholder="Enter amount"
                    Grid.Row="10"
                    Grid.Column="1"
                    Grid.ColumnSpan="3"
                    x:Name="food"
-                   Keyboard="Numeric"/>
+                   Keyboard="Numeric"
+                   Text="0"/>
 
             <Label Text="Other Expenses"
                    Grid.Row="11"
-                   Grid.Column="0"/>
+                   Grid.Column="0"
+                   x:Name="other_Expenses"/>
 
             <Entry Placeholder="Other Expenses"
                    Grid.Row="11"
                    Grid.Column="1"
                    Grid.ColumnSpan="3"
                    x:Name="otherExpenses"
-                   Keyboard="Numeric"/>
+                   Keyboard="Numeric"
+                   Text="0"/>
 
             <Button Text="Calculate"
                     FontSize="Large"
@@ -131,6 +144,22 @@
                     Grid.ColumnSpan="3"
                     BackgroundColor="Green"
                     Clicked="Calculate_Button_Clicked"/>
+            
+            <Label Text="Your total Monthly Income £"
+                Grid.Row="13"
+                Grid.Column="0"
+                Grid.ColumnSpan="2"
+                x:Name="Monthly_Income"/>
+            <Label Text="Your total Monthly expenses £"
+                Grid.Row="14"
+                Grid.Column="0"
+                Grid.ColumnSpan="2"
+                x:Name="Monthly_Expenses"/>
+            <Label Text="Your total Weekly Budget £"
+                Grid.Row="15"
+                Grid.Column="0"
+                Grid.ColumnSpan="2"
+                x:Name="Weekly_Budget"/>
 
 
 
