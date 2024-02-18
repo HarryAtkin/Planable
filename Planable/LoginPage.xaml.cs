@@ -59,4 +59,9 @@ public partial class LoginPage : ContentPage
 		}
 		
     }
+
+    private async void Sign_Up_pressed(object sender, EventArgs e)
+	{
+		await Navigation.PushAsync(new SignUpPage());
+	}
 }

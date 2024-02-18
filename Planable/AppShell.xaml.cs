@@ -9,7 +9,8 @@
             Routing.RegisterRoute(nameof(AboutUs), typeof(ContentPage));
             Routing.RegisterRoute(nameof(FinanceCalculator), typeof(ContentPage));
             Routing.RegisterRoute(nameof(MyFinancePage), typeof(ContentPage));
-            
+            Routing.RegisterRoute(nameof(SignUpPage), typeof(ContentPage));
+
         }
     }
 }

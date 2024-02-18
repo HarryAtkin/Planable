@@ -148,17 +148,17 @@
             <Label Text="Your total Monthly Income £"
                 Grid.Row="13"
                 Grid.Column="0"
-                Grid.ColumnSpan="2"
+                Grid.ColumnSpan="3"
                 x:Name="Monthly_Income"/>
             <Label Text="Your total Monthly expenses £"
                 Grid.Row="14"
                 Grid.Column="0"
-                Grid.ColumnSpan="2"
+                Grid.ColumnSpan="3"
                 x:Name="Monthly_Expenses"/>
             <Label Text="Your total Weekly Budget £"
                 Grid.Row="15"
                 Grid.Column="0"
-                Grid.ColumnSpan="2"
+                Grid.ColumnSpan="3"
                 x:Name="Weekly_Budget"/>
 
 

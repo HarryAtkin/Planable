@@ -23,6 +23,8 @@ namespace Planable
             builder.Services.AddSingleton<FinanceCalculator>();
 
             builder.Services.AddSingleton<LoginPage>();
+
+            builder.Services.AddSingleton<SignUpPage>();
             return builder.Build();
         }
     }
