@@ -12,7 +12,7 @@ namespace Planable
 
        private async void main_Button(object sender, EventArgs e)
         {
-            await Shell.Current.GoToAsync("PageBudget");
+            await Shell.Current.GoToAsync(nameof(PageBudget));
         }
         private async void button2(object sender, EventArgs e)
         {

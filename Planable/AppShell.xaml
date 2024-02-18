@@ -28,6 +28,10 @@
         Title="Your finance"
         ContentTemplate="{DataTemplate local:MyFinancePage}"
         Route="MyFinancePage"/>
+        <ShellContent
+    Title="Login page"
+    ContentTemplate="{DataTemplate local:LoginPage}"
+    Route="MyFinancePage"/>
     </TabBar>
 
     
