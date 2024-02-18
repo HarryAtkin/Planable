@@ -112,7 +112,7 @@
                    x:Name="food"
                    Keyboard="Numeric"/>
 
-            <Label Text="Food"
+            <Label Text="Other Expenses"
                    Grid.Row="11"
                    Grid.Column="0"/>
 
