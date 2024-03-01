@@ -2,11 +2,25 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Planable.SignUpPage"
-             Title="SignUpPage">
+             Title="SignUpPage"
+             Background="LightGray">
     <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
+        <Label
+            Text="Sign up"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
+        <Entry
+            Text="Email" x:Name="email_entry"/>
+        <Entry
+            Text="Enter Username" x:Name="username_entry"/>
+        <Entry
+            Text="Enter Password" x:Name="password_entry"/>
+        <Entry
+            Text="Enter Password again" x:Name="password_rentry"/>
+        <Entry
+            Text="Enter date of birth" x:Name="dob_entry"/>
+        <Button
+            Text="Sign up"
+            Clicked="sign_up_button_pressed"/>
     </VerticalStackLayout>
 </ContentPage>

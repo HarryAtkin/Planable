@@ -2,7 +2,8 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Planable.FinanceCalculator"
-             Title="FinanceCalculator">
+             Title="FinanceCalculator"
+             Background="LightGray">
     <ScrollView>
         <Grid ColumnDefinitions="150,50,50,50,50"
   RowDefinitions="100,100,100,50, 50,100, 50, 50,100, 50, 50, 50, 50, 50, 50, 50"
@@ -12,7 +13,7 @@
         
 
             <Image Source="logo_proj1.png"
-                   Grid.ColumnSpan="2"
+                   Grid.ColumnSpan="3"
                    Grid.Column="1"
                    Grid.Row="0"
                    Scale="2"/>

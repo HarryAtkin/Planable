@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Planable
 {
-    class Logged_in
+    class User_Logged_in
     {
         private bool loggedIn = false;
         private string? username = null;
@@ -20,7 +20,7 @@ namespace Planable
             this.password = password;
         }
 
-        public bool getLoggedIn()
+        public bool get_is_logged_in()
         {
             return loggedIn;
         }
@@ -38,6 +38,7 @@ namespace Planable
             
         }
 
+        //Should probable delete this method for security reasons
         public string getPassword()
         {
             if (password == null)

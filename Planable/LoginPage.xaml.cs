@@ -1,5 +1,5 @@
 //using System.IO;
-using System.Text;
+//using System.Text;
 
 namespace Planable;
 
@@ -7,16 +7,12 @@ public partial class LoginPage : ContentPage
 {
 	public LoginPage()
 	{
-		InitializeComponent();
-	}
+        InitializeComponent();
+    }
 
     private async void Sign_In_pressed(object sender, EventArgs e)
     {
 		string Password_to_hash = Password_Entry.Text;
-        Console.WriteLine("Input Username");
-        Console.WriteLine(Username_Entry.Text);
-        Console.WriteLine("Input password");
-		Console.WriteLine(Password_to_hash);
 		//Add hashing algorithm here later
 
 
@@ -39,8 +35,8 @@ public partial class LoginPage : ContentPage
                 if (password == Password_to_hash)
 				{
                     await DisplayAlert("Success", "You have successfully logged in", "OK");
-                    
-					Logged_in log = new Logged_in();
+
+                    User_Logged_in log = new User_Logged_in();
 					log.logged_in(true, Username_Entry.Text, Password_Entry.Text);
 
 					break;
