@@ -3,7 +3,8 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Planable.SignUpPage"
              Title="SignUpPage"
-             Background="LightGray">
+             Background="LightGray"
+             Shell.TabBarIsVisible="False">
     <VerticalStackLayout>
         <Label
             Text="Sign up"

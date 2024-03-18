@@ -1,5 +1,7 @@
 ﻿
 
+using Microsoft.Extensions.Logging;
+
 namespace Planable
 {
     public partial class MainPage : ContentPage
@@ -8,6 +10,7 @@ namespace Planable
         public MainPage()
         {
             InitializeComponent();
+            Navigation.PushAsync(new LoginPage());
         }
 
        private async void main_Button(object sender, EventArgs e)
@@ -30,7 +33,7 @@ namespace Planable
         private async void button5(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new MyFinancePage()); //Basically creates a new instance of the class
-        } 
+        }
     }
 
 }

@@ -7,8 +7,16 @@ public partial class LoginPage : ContentPage
 {
 	public LoginPage()
 	{
-        InitializeComponent();
+		InitializeComponent();
     }
+
+    bool remember_me_value;
+
+    void remember_me(object sender, CheckedChangedEventArgs e)
+	{
+		bool remember_me_value;
+        remember_me_value = e.Value;
+	}
 
     private async void Sign_In_pressed(object sender, EventArgs e)
     {
@@ -37,9 +45,9 @@ public partial class LoginPage : ContentPage
                     await DisplayAlert("Success", "You have successfully logged in", "OK");
 
                     User_Logged_in log = new User_Logged_in();
-					log.logged_in(true, Username_Entry.Text, Password_Entry.Text);
-
-					break;
+					log.logged_in(true, Username_Entry.Text, Password_Entry.Text, remember_me_value);
+                    await Navigation.PopAsync();
+                    break;
                 }
                 else
 				{

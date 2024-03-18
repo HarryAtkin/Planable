@@ -5,34 +5,35 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:Planable"
     Title="Planable"
-    NavBarIsVisible="False">
+    NavBarIsVisible="True"
+    TabBarBackgroundColor ="LightGray">
 
-    <TabBar>
-    <ShellContent
+    <FlyoutItem>
+
+        <ShellContent
         Title="Home"
         ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
-    <ShellContent
+        Route="MainPage"/>
+
+        <ShellContent
         Title="How to budget"
         ContentTemplate="{DataTemplate local:PageBudget}"
         Route="PageBudget"/>
-    <ShellContent
+
+        <ShellContent
         Title="Finance Calculator"
         ContentTemplate="{DataTemplate local:FinanceCalculator}"
         Route="FinanceCalculator"/>
-    <ShellContent
+
+        <ShellContent
         Title="About us"
         ContentTemplate="{DataTemplate local:AboutUs}"
         Route="AboutUs"/>
-    <ShellContent
+        <ShellContent
         Title="Your finance"
         ContentTemplate="{DataTemplate local:MyFinancePage}"
         Route="MyFinancePage"/>
-        <ShellContent
-    Title="Login page"
-    ContentTemplate="{DataTemplate local:LoginPage}"
-    Route="MyFinancePage"/>
-    </TabBar>
+        
+    </FlyoutItem>
 
-    
 </Shell>

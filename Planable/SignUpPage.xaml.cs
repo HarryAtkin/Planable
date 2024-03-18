@@ -10,7 +10,7 @@ public partial class SignUpPage : ContentPage
 	{
 		InitializeComponent();
 	}
-	private async void sign_up_button_pressed(object sender, EventArgs e)
+	private void sign_up_button_pressed(object sender, EventArgs e)
     {
         string email = email_entry.Text;
         string username = username_entry.Text;

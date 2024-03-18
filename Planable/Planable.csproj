@@ -64,6 +64,15 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <Compile Update="LoginPage-Copy.xaml.cs">
+	    <DependentUpon>LoginPage-Copy.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="MainPage-Copy.xaml.cs">
+	    <DependentUpon>MainPage-Copy.xaml</DependentUpon>
+	  </Compile>
+	</ItemGroup>
+
+	<ItemGroup>
 	  <MauiAsset Update="Resources\Raw\Login_details_assets.txt">
 	    <LogicalName>%(RecursiveDir)%(Filename)%(Extension)</LogicalName>
 	  </MauiAsset>
@@ -76,7 +85,10 @@
 	  <MauiXaml Update="FinanceCalculator.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="LoginPage.xaml">
+	  <MauiXaml Update="LoginPage-Copy.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="MainPage-Copy.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="MyFinancePage.xaml">

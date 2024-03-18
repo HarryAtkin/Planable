@@ -2,7 +2,7 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Planable.LoginPage"
-             Title="LoginPage"
+             Title="LoginPage-Copy"
              Shell.NavBarIsVisible="False">
     <Grid BackgroundColor = "White">
         <Grid.RowDefinitions>
@@ -64,7 +64,7 @@
                     </Frame>
 
                     <StackLayout Orientation="Horizontal" Margin="0,10,0,0" Padding="0">
-                        <CheckBox IsChecked="False"/>
+                        <CheckBox IsChecked="False" CheckedChanged="remember_me"/>
                         <Label Text="Remember Me" TextColor="DarkGray" FontSize="Small" VerticalTextAlignment="Center" HorizontalOptions="Center"/>
                         <Label Text="Forgot Password" TextColor="LightGreen" FontAttributes="Bold" HorizontalOptions="EndAndExpand" VerticalTextAlignment="Center" HorizontalTextAlignment="Center"/>
 

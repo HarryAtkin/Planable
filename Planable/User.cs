@@ -55,7 +55,7 @@ namespace Planable
 
         public void user_data()
         {
-
+            budget = 0;
         }
 
     }

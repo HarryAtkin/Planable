@@ -10,14 +10,16 @@ namespace Planable
     class User_Logged_in
     {
         private bool loggedIn = false;
+        private bool remember_me = false;
         private string? username = null;
         private string? password = null;
 
-        public void logged_in(bool loggedIn, string username, string password)
+        public void logged_in(bool loggedIn, string username, string password, bool remember_me)
         {
             this.loggedIn = loggedIn;
             this.username = username;
             this.password = password;
+            this.remember_me = remember_me;
         }
 
         public bool get_is_logged_in()
