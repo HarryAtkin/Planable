@@ -5,19 +5,12 @@
              Title="FinanceCalculator"
              Background="LightGray">
     <ScrollView>
-        <Grid ColumnDefinitions="150,50,50,50,50"
-  RowDefinitions="100,100,100,50, 50,100, 50, 50,100, 50, 50, 50, 50, 50, 50, 50"
+        <Grid ColumnDefinitions="150,150,50,50,50"
+  RowDefinitions="1,100,100,50, 50,100, 50, 50,100, 50, 50, 50, 50, 50, 50, 50"
   ColumnSpacing="0"
   RowSpacing="5">
 
         
-
-            <Image Source="logo_proj1.png"
-                   Grid.ColumnSpan="3"
-                   Grid.Column="1"
-                   Grid.Row="0"
-                   Scale="2"/>
-
             <Label Text="Finance Calculator" 
                    Grid.Row="1" 
                    Grid.Column="0" 

@@ -31,9 +31,9 @@ public partial class FinanceCalculator : ContentPage
         Monthly_Expenses.Text = "Your total Monthly Outgoings £" + outgoings.ToString("#.##");
         double budget = 0;
 
-        budget = double.Parse(rent.Text) + double.Parse(food.Text) + double.Parse(otherExpenses.Text);
+        budget = (double.Parse(rent.Text) + double.Parse(food.Text) + double.Parse(otherExpenses.Text)) / 4;
 
-        budget += budget * 0.1;
+        budget += budget * 0.05;
 
         if (income < budget)
         {
@@ -46,7 +46,7 @@ public partial class FinanceCalculator : ContentPage
             if (income > income * 0.5)
             {
                 await DisplayAlert("Treat yourself", "You have more money than you need, go out for a nice dinner", "OK"); //Add other random messages
-                Weekly_Budget.Text = "Your weekly budget is £" + (budget).ToString("#.##") + "Your maintenance loan covers your entire budget";
+                Weekly_Budget.Text = "Your weekly budget is £" + (budget).ToString("#.##") + " Your maintenance loan covers your entire budget";
             }
             else
             {

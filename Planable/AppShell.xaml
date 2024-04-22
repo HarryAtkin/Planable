@@ -6,9 +6,10 @@
     xmlns:local="clr-namespace:Planable"
     Title="Planable"
     NavBarIsVisible="True"
-    TabBarBackgroundColor ="LightGray">
+    TabBarBackgroundColor ="LightGray"
+    FlyoutBackgroundColor="LightGray"
+    Shell.BackgroundColor="LightGray">
 
-    <FlyoutItem>
 
         <ShellContent
         Title="Home"
@@ -34,6 +35,5 @@
         ContentTemplate="{DataTemplate local:MyFinancePage}"
         Route="MyFinancePage"/>
         
-    </FlyoutItem>
 
 </Shell>

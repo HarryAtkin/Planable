@@ -6,7 +6,7 @@
              Background="LightGray">
     <ScrollView>
         <Grid ColumnDefinitions="*,*,*,*"
-      RowDefinitions="*,*,*,*"
+      RowDefinitions="*,*,*,*,*,*,*"
       ColumnSpacing="1"
       RowSpacing="0">
 
@@ -17,8 +17,62 @@
                    HorizontalOptions="Center" 
                    VerticalOptions="Center" 
                    FontSize="Large" 
-                   FontAttributes="Bold" />
+                   FontAttributes="Bold" 
+                   SemanticProperties.Description=""/>
+            
+            <Label Text="1.	Spend 50% of your money on needs." 
+            Grid.Row="1" 
+            Grid.Column="0" 
+            Grid.ColumnSpan="4" 
+            HorizontalOptions="Center" 
+            VerticalOptions="Center" 
+            FontSize="Body"
+            SemanticProperties.Description="Link to source: https://n26.com/en-eu/blog/50-30-20-rule"/>
+            
+            <Label Text="2.	Spend 30% of your money on wants." 
+            Grid.Row="2" 
+            Grid.Column="0" 
+            Grid.ColumnSpan="4" 
+            HorizontalOptions="Center" 
+            VerticalOptions="Center" 
+            FontSize="Body"
+            SemanticProperties.Description="Link to source: https://n26.com/en-eu/blog/50-30-20-rule"/>
 
+            <Label Text="3.	Stash 20% of your money for savings."
+            Grid.Row="3" 
+            Grid.Column="0" 
+            Grid.ColumnSpan="4" 
+            HorizontalOptions="Center" 
+            VerticalOptions="Center" 
+            FontSize="Body"
+            SemanticProperties.Description="Link to source: https://n26.com/en-eu/blog/50-30-20-rule"/>
+
+            <Label Text="4.	Calculate your after-tax income." 
+            Grid.Row="4" 
+            Grid.Column="0" 
+            Grid.ColumnSpan="4" 
+            HorizontalOptions="Center" 
+            VerticalOptions="Center" 
+            FontSize="Body"
+            SemanticProperties.Description="Link to source: https://n26.com/en-eu/blog/50-30-20-rule"/>
+
+            <Label Text="5.	Categorize your spending for the past month." 
+            Grid.Row="5" 
+            Grid.Column="0" 
+            Grid.ColumnSpan="4" 
+            HorizontalOptions="Center" 
+            VerticalOptions="Center" 
+            FontSize="Body"
+            SemanticProperties.Description="Link to source: https://n26.com/en-eu/blog/50-30-20-rule"/>
+
+            <Label Text="6.	Evaluate and adjust your spending to match the 50/30/20 rule." 
+            Grid.Row="6" 
+            Grid.Column="0" 
+            Grid.ColumnSpan="4" 
+            HorizontalOptions="Center" 
+            VerticalOptions="Center" 
+            FontSize="Body"
+            SemanticProperties.Description="Link to source: https://n26.com/en-eu/blog/50-30-20-rule"/>
 
         </Grid>
     </ScrollView>
