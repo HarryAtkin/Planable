@@ -126,12 +126,12 @@ Figure 3 shows that the MainPage class implements the other pages. This is due t
 ## 7. Conclusion
 To conclude we were able to create a working application to help students handle their money and budget efficiently with most objectives achieved such as the login page, the ability calculates the user’s budget, a page that includes a way to contact the group, and a well laid out home/portal page that allows the user to navigate the application efficiently. All this together enables the application to help students and other users calculate their budget and helps them save money easily and more efficiently. However, in the future we have plans to add more function to our application this includes and is not limited to adding extra security such as hashing algorithms for passwords to allow our application to be more secure, linking our application to a database to enable us to handle user data more efficiently and securely, integration to allow for us to track users spending without them having to input their spending this will make the data collected more accurate as it will reduce human input error as well as most human error in general. The overall group management went alright with the work being split up fairly and depending on the skill sets of the member of the group.
 ## References
-Britch, Kelderman, George, D.B, O.K, A.G. Microsoft. (11/29/2023). File system helpers. Microsoft Learn. https://learn.microsoft.com/en-us/dotnet/maui/platform-integration/storage/file-system-helpers?view=net-maui-8.0&tabs=windows
-W3Schools. (1999-2024). C# Files. W3Schools. https://www.w3schools.com/cs/cs_files.php
+Britch, Kelderman, George, D.B, O.K, A.G. Microsoft. (11/29/2023). File system helpers. Microsoft Learn. https://learn.microsoft.com/en-us/dotnet/maui/platform-integration/storage/file-system-helpers?view=net-maui-8.0&tabs=windows<br/>
+W3Schools. (1999-2024). C# Files. W3Schools. https://www.w3schools.com/cs/cs_files.php <br/>
 5Rabbits LLC. (2023). Gantt Chart Online Maker Software. Instagnatt. https://www.instagantt.com/?gad_source=1&gclid=EAIaIQobChMIgbmA8-vVhQMVgp1QBh2SCgjtEAAYASAAEgJG4vD_BwE
-Canva. (2024). https://www.canva.com/en_gb/
-Adobe. (2024). Photoshop. adobe. https://www.adobe.com/uk/products/photoshop/landpa.html?gclid=CjwKCAjwuJ2xBhA3EiwAMVjkVHWPvo_n7VUhlKconKa0w8r_iWrDwN_lbfzrmZ2I-oZreFdpnw4aDhoCwMcQAvD_BwE&mv=search&mv=search&mv2=paidsearch&sdid=2XBSBWBF&ef_id=CjwKCAjwuJ2xBhA3EiwAMVjkVHWPvo_n7VUhlKconKa0w8r_iWrDwN_lbfzrmZ2I-oZreFdpnw4aDhoCwMcQAvD_BwE:G:s&s_kwcid=AL!3085!3!441664377297!e!!g!!photoshop!1422700211!58647953511&gad_source=1
-Brown, L.B. Save the student. (2022). Student Money Survey 2022 – Results. savethestudent.org. https://www.savethestudent.org/money/surveys/student-money-survey-2022-results.html
+Canva. (2024). https://www.canva.com/en_gb/ <br/>
+Adobe. (2024). Photoshop. adobe. https://www.adobe.com/uk/products/photoshop/landpa.html?gclid=CjwKCAjwuJ2xBhA3EiwAMVjkVHWPvo_n7VUhlKconKa0w8r_iWrDwN_lbfzrmZ2I-oZreFdpnw4aDhoCwMcQAvD_BwE&mv=search&mv=search&mv2=paidsearch&sdid=2XBSBWBF&ef_id=CjwKCAjwuJ2xBhA3EiwAMVjkVHWPvo_n7VUhlKconKa0w8r_iWrDwN_lbfzrmZ2I-oZreFdpnw4aDhoCwMcQAvD_BwE:G:s&s_kwcid=AL!3085!3!441664377297!e!!g!!photoshop!1422700211!58647953511&gad_source=1 <br/>
+Brown, L.B. Save the student. (2022). Student Money Survey 2022 – Results. savethestudent.org. https://www.savethestudent.org/money/surveys/student-money-survey-2022-results.html <br/>
 
 ## Appendices
 
