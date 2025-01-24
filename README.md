@@ -44,17 +44,17 @@ The application will not require any sensitive information such as banking infor
 Rohil designed all the wire frame models and prototype models for our application during the analysis/planning stage these prototype design images allow us to provide the users with effective imagery on what the final product will look like, this shows the user what type of visual benefits the application will provide:
 
 ![alt text](README-images/image-2.png)<br/>  
-**Figure 1**
+**Figure 1**<br/>
 ![alt text](README-images/image-3.png)<br/>
-**Figure 2**
+**Figure 2**<br/>
 ![alt text](README-images/image-4.png)<br/>	
-**Figure 3**
+**Figure 3**<br/>
 ![alt text](README-images/image-5.png)<br/>
-**Figure 4**
+**Figure 4**<br/>
 ![alt text](README-images/image-6.png)<br/>
-**Figure 5**
+**Figure 5**<br/>
 ![alt text](README-images/image-7.png)<br/>
-**Figure 6**
+**Figure 6**<br/>
 Once we created the logo we decided to stick with the purple and white theme which allows a modern and crisp look to our prototype UIs. We have included quality of life features such as a NAV bar shown in figure 6 and a remember me option to automatically log users in once they load the application again.
 Figure 1 shows the main page, which is intended to be a ‘portal page’ this allows the user to access all the parts of the application. This page is designed to be simple to avoid clutter which allows the user to easily navigate our application.
 There is a page that gives the user information on how to budget, this is necessary when creating an application aimed toward student budgeting, shown in Figure 2. 
@@ -86,25 +86,20 @@ The issues regarding to back end are as follows:
 ## 5. UML diagram
 
 ![alt text](README-images/image-8.png)<br/>
-**Figure 1**
+**Figure 1**<br/>
 Figure 1 shows the User class this is the standard class for an ordinary user, it contains all the attributes and methods of the class. It also shows the admin user class this class inherits from the User class while adding attributes such as admin username and password, it adds the checkAdmin method which allows the software to check if the user is an admin.</br>
 ![alt text](README-images/image-9.png)<br>
-**Figure 2**
+**Figure 2**<br/>
 Figure 2 represents the pages of the application and presents their direct dependency to the content page class. This class is a built-in class to MAUI which is used to create pages that will display content, all the pages that are used in the project are directly dependent on the content page class.<br/>
 ![alt text](README-images/image-10.png)<br/>
-**Figure 3**
+**Figure 3**<br/>
 Figure 3 shows that the MainPage class implements the other pages. This is due to the main page acting as a ‘portal’ to all the other pages.
 
 ### Testing
 #### White box
 
-| Test          | Name           | Evaluation|
-|:-------------:|:--------------:|:---------:|
-| Login page    | Harry Atkinson |  |
-
-
 | Test              | Name                  | Evaluation                             |
-|:---------------  :|:----------------------|:---------------------------------------|
+|:--------------- -:|:----------------------|:---------------------------------------|
 | Login page        | Harry Atkinson        | The login page functions as it should. It opens and reads the file, then compares the user input to the file and returns true if the input is equal to the file and false if it isn’t prompting the user to try again. |
 | Budget calculator | Harry Atkinson        | The weekly budget that was being calculated didn’t make logical sense as it shows spending more than you have weekly. Looking at the code I found that there is a logic error where it’s giving the budget out monthly this has been fixed by dividing the value by four for the average month. |
 | Home/Main page    | Harry Atkinson        | While testing the home page it seemed to work correctly as each button appeared and functioned as they should by taking the user to the correct page. |
@@ -112,8 +107,8 @@ Figure 3 shows that the MainPage class implements the other pages. This is due t
 #### Black box
 
 | Test              | Name                  | Evaluation                             |
-|:---------------  :|:----------------------|:---------------------------------------|
-| Login page        | Kaitlyn Y****         |  The login pages layout is clear and concise and therefore isn’t difficult to navigate. I think that the “Remember Me” and “Forgot Password” should be placed below or above each other so there is spacing between them. |
+|:--------------- -:|:----------------------|:---------------------------------------|
+| Login page        | Kaitlyn Y****         | The login pages layout is clear and concise and therefore isn’t difficult to navigate. I think that the “Remember Me” and “Forgot Password” should be placed below or above each other so there is spacing between them. |
 | Budget calculator | Kaitlyn Y****         | The calculator works, with useful information with total monthly income, outgoings and what my weekly budget would be. The input for the page is clear making it user friendly. Where it provides information on the weekly budget, there is no spacing between “Your weekly budget is £---” and “Your maintenance…” This could benefit with a space to make it clearer. |
 | Home/Main page    | Kaitlyn Y****         | The main page is well laid out, with the different sections of the app being presented clearly, with relevant images for each of the sections. The top menu opens smoothly with the sections again being clearly labelled. While the three lines are clear to me, it could benefit from a greater contradicting colour from the background to make it that much clearer.  |
 
@@ -156,17 +151,17 @@ Brown, L.B. Save the student. (2022). Student Money Survey 2022 – Results. sav
 ### Screenshot of final product
        
 ![alt text](README-images/image-11.png)<br/>
-**Figure 1**
+**Figure 1**<br/>
 ![alt text](README-images/image-12.png)<br/>
-**Figure 2**
+**Figure 2**<br/>
 ![alt text](README-images/image-13.png)<br/>
-**Figure 3**
+**Figure 3**<br/>
 ![alt text](README-images/image-14.png)<br/> 
-**Figure 4**
+**Figure 4**<br/>
 ![alt text](README-images/image-15.png)<br/>
-**Figure 5**
+**Figure 5**<br/>
 ![alt text](README-images/image-16.png)
-**Figure 6**
+**Figure 6**<br/>
 Figure 1 this is the main page/portal of our application all the buttons are functional, and all the images used are ours as well. This page did differ from the original design shown in section 3 UI designs with the most noticeable difference being the background this was an issue that was addressed in section 4, Technical issues, Front-end, issue 1. The second main change is that there is no ‘my account’ button in the top right this is however planned.
 Figure 2 shows a section of the finance calculator page. This page is different to the original design because of time restrains and lack of knowledge in the software used.
 Figure 5 shows the login page, this page was created and designed by Josh. The page allows the user to login. There are a few design issues that will be sorted in the future these were pointed out by Kaitlyn in section 5, black box testing.
@@ -223,28 +218,28 @@ I took 48 points from Shaun and gave them to the team equally as he did not comp
 (Harry’s username is BeatleBoy_, Gracjan’s username is G, the rest are close enough to real names.)<br/>
  
 ![alt text](README-images/image-32.png)<br/> 
-**Figure 1**
+**Figure 1**<br/>
 ![alt text](README-images/image-33.png)<br/>
-**Figure 2**
+**Figure 2**<br/>
 ![alt text](README-images/image-34.png)<br/>
-**Figure 3**
+**Figure 3**<br/>
 ![alt text](README-images/image-35.png)<br/>
-**Figure 4**
+**Figure 4**<br/>
 ![alt text](README-images/image-36.png)<br/>
-**Figure 5**
+**Figure 5**<br/>
 ![alt text](README-images/image-37.png)<br/>
-**Figure 6**
+**Figure 6**<br/>
 ![alt text](README-images/image-38.png)<br/>
-**Figure 7**
+**Figure 7**<br/>
 ![alt text](README-images/image-39.png)<br/>
-**Figure 8**
+**Figure 8**<br/>
 ![alt text](README-images/image-40.png)<br/>
-**Figure 9**
+**Figure 9**<br/>
 ![alt text](README-images/image-41.png)<br/>
-**Figure 10**
+**Figure 10**<br/>
 ![alt text](README-images/image-42.png)<br/>
-**Figure 11**
+**Figure 11**<br/>
 ![alt text](README-images/image-43.png)<br/>
-**Figure 12**
+**Figure 12**<br/>
 ![alt text](README-images/image-44.png)<br/>
-**Figure 13**
+**Figure 13**<br/>
