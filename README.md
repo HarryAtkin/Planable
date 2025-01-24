@@ -99,7 +99,7 @@ Figure 3 shows that the MainPage class implements the other pages. This is due t
 #### White box
 
 | Test              | Name                  | Evaluation                             |
-|:--------------- -:|:----------------------|:---------------------------------------|
+|:-----------------:|:----------------------|:---------------------------------------|
 | Login page        | Harry Atkinson        | The login page functions as it should. It opens and reads the file, then compares the user input to the file and returns true if the input is equal to the file and false if it isn’t prompting the user to try again. |
 | Budget calculator | Harry Atkinson        | The weekly budget that was being calculated didn’t make logical sense as it shows spending more than you have weekly. Looking at the code I found that there is a logic error where it’s giving the budget out monthly this has been fixed by dividing the value by four for the average month. |
 | Home/Main page    | Harry Atkinson        | While testing the home page it seemed to work correctly as each button appeared and functioned as they should by taking the user to the correct page. |
@@ -107,7 +107,7 @@ Figure 3 shows that the MainPage class implements the other pages. This is due t
 #### Black box
 
 | Test              | Name                  | Evaluation                             |
-|:--------------- -:|:----------------------|:---------------------------------------|
+|:-----------------:|:----------------------|:---------------------------------------|
 | Login page        | Kaitlyn Y****         | The login pages layout is clear and concise and therefore isn’t difficult to navigate. I think that the “Remember Me” and “Forgot Password” should be placed below or above each other so there is spacing between them. |
 | Budget calculator | Kaitlyn Y****         | The calculator works, with useful information with total monthly income, outgoings and what my weekly budget would be. The input for the page is clear making it user friendly. Where it provides information on the weekly budget, there is no spacing between “Your weekly budget is £---” and “Your maintenance…” This could benefit with a space to make it clearer. |
 | Home/Main page    | Kaitlyn Y****         | The main page is well laid out, with the different sections of the app being presented clearly, with relevant images for each of the sections. The top menu opens smoothly with the sections again being clearly labelled. While the three lines are clear to me, it could benefit from a greater contradicting colour from the background to make it that much clearer.  |
